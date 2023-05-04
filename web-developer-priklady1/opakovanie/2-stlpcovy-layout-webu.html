@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Dvojstlpcovy layout webu - opakovanie</title>
+    <style>
+            .hlavny{
+                display: flex;
+                flex-direction: column;
+                background-color: lightblue;
+                padding: 50px;   /*nastavili sme vnutorny okraj tohto kontajnera teda vsetko v nom bude zacinat vo vnutri.
+                jedno cislo znamena ze tie okraje su nastavene z kazden strany.*/
+            }
+
+            .hlavicka, .patka {
+                background-color: turquoise;
+                height: 100px;
+            }
+
+            .patka {
+                margin-top: 20px;
+            }
+
+            .telo {
+                /*background-color: red;*/
+                display:flex;
+                flex-direction: row;
+            }
+            .lavy {
+                background-color: springgreen;
+                width: 30%;
+                height: 500px;
+                margin-top: 20px;
+            }
+
+            .pravy {
+                background-color: orange;
+                width: 70%;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+
+            .hlavicka {
+                background-color: turquoise;
+                height: 100px;
+            }
+
+            .image1 {
+                background-color: darkorange;
+                width: 20%;
+                height: 100px;
+                margin: 20px;
+
+            }
+
+            .image2 {
+                background-color: darkorange;
+                width: 20%;
+                text-align: center;
+                margin: 20px;
+
+            }
+
+            .image3 {
+                background-color: darkorange;
+                width: 20%;
+                height: 100px;
+                margin: 20px;
+                float: right;
+                text-align: right;
+            }
+
+            .patka-obrazok {
+                text-align: right;
+
+            }
+    </style>
+</head>
+<body>
+    <div class="hlavny">
+        <header class="hlavicka">Nejaka hlavicka        </header>
+        <div class="telo">
+            <div class="lavy">lavy box</div>
+            <div class="pravy">
+                <div class="image1">Image</div>
+                <div class="image2">Image</div>
+                <div class="image3">Image</div>
+
+              <!--  TODO doplnime 3 kontajnery s konkretnymi rozmermi. nad nimi moze byt pripadne nejaky text-->
+
+            </div>
+
+
+        </div>
+        <footer class="patka">najeka patka</footer>
+
+        <div class="patka-obrazok"><img src="/images/code.PNG">
+
+        <img src="stiahnuť.jfif">
+        <p>Zdroj obrazka:</p>
+
+        <!--TODO doplnit napravo logo, v praxi byva akykolvek obsah tiez v kontajneri, cize v div-e-->
+
+
+    </div>
+
+</body>
+</html>

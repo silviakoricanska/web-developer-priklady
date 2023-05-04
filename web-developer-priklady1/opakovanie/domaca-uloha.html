@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>domaca-uloha</title>
+  <meta charset="SK-8">
+
+  <style>
+    .header {
+      background-color: deepskyblue;
+      width: 40%;
+      height: 5vh;
+      margin: auto;
+      position: relative;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Arial;
+      font-size: 8px;
+    }
+
+    .header h1 {
+      color: white;
+      margin: 0;
+      padding: 8px;
+    }
+
+    .container {
+      position: relative;
+      margin-top: 10px; /* medzera medzi hlavickou a stvorcami */
+      width: 100%;
+      height: calc(90vh - 10px); /* zvysna vyska minus medzera */
+    }
+
+    .square1 {
+      background-color: lavender;
+      width: calc(15% - 5px);
+      height: 15vw;
+      display: inline-block;
+      position: absolute;
+      left: 30%;
+    }
+
+    .square2 {
+      background-color: orange;
+      width: calc(25% - 5px);
+      height: 25vw;
+      position: absolute;
+      right: 30%;
+    }
+
+    .square3 {
+      background-color: darkgray;
+      width: calc(25% - 5px);
+      height: 17%;
+      position: absolute;
+      right: 30%;
+      top: calc(57% + 15px);
+    }
+
+    .square4 {
+      background-color: #97c355;
+      width: calc(15% - 5px);
+      height: 40%;
+      position: absolute;
+      left: 30%;
+      top: calc(35% + 5px);
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Header</h1>
+</div>
+
+
+<div class="container" style="height: calc(90vh - 10px);">
+  <div class="square1"></div>
+  <div class="square2"></div>
+  <div class="square3"></div>
+  <div class="square4"></div>
+</div>
+
+
+
+</body>
+</html>

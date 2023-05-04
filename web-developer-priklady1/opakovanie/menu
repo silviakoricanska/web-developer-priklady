@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>2-stĺpcový web dizajn</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="left-column">
+        <h1>Vitajte na mojom webe!</h1>
+        <p>Tento web je určený na ukážku 2-stĺpcového web dizajnu v HTML a CSS.</p>
+    </div>
+    <div class="right-column">
+        <h2>O mne</h2>
+        <p>Som web developer s 5 ročnou skúsenosťou v oblasti HTML a CSS.</p>
+    </div>
+</div>
+</body>
+</html>
