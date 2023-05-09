@@ -1,0 +1,74 @@
+div p {
+    padding: 5px;
+}
+
+.hlavny {
+    /*background-color: red;*/
+    display: flex; /* Zobraz "obsah", teda kontajnery (div) vo vnutri vedla seba */
+    flex-direction: column; /* Touto vlastnostou nastavime "obsah", ktory sa bude zobrazovat pod sebou */
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.hlavicka {
+    background-color: #00d6f4;
+    height: 50px; /* Nastavili sme vysku hlavicky na 50 pixelov */
+}
+
+.telo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.nad-patkou {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.patka {
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.lavy {
+    width: 35%;
+}
+
+.pravy {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.lavy-horny {
+    background-color: #dcc8e6;
+    height: 400px;
+}
+
+.lavy-dolny {
+    background-color: #97c355;
+    height: 600px;
+    margin-top: 10px;
+}
+
+.pravy-horny {
+    background-color: orange;
+    height: 700px;
+}
+
+.pravy-dolny {
+    background-color: silver;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.nad-patkou-lavy {
+    background-color: #e91e63;
+    width: 80%;
+}
+
+.nad-patkou-pravy {
+    background-color: #3a3a3a;
+    width: 20%;
+}

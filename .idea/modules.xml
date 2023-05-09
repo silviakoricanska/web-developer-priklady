@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../web-developer-priklady1/.idea/WebDeveloperPriklady.iml" filepath="$PROJECT_DIR$/../web-developer-priklady1/.idea/WebDeveloperPriklady.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-developer-priklady1/.idea/WebDeveloperPriklady.iml" filepath="$PROJECT_DIR$/web-developer-priklady1/.idea/WebDeveloperPriklady.iml" />
     </modules>
   </component>
 </project>
