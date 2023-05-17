@@ -2,24 +2,20 @@
 <html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <title>Modernizacia webu Petrolservis</title>
+    <title>Modernizacia webu hasiaci servis</title>
     <link href="template.css"
           rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           rel="stylesheet">
+
+    <link href="media.css"
+          rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet">
 </head>
-<img src="Image20230513111722.png" height="300" width="1000"/>
+<img src="fenix.png" height="200" width="300"/>
+<p style="color: red; padding-right: 350px; padding-top: 50px; font-family: 'Arial Black' ; font-size: 50px; float: right" >HASIACI SERVIS</p>
 
-
-    </style>
-
-
-    </style>
-
-
-
-
-</h1>
 <body>
 <div class="hlavny">
     <header class="hlavicka">
@@ -35,41 +31,165 @@
                href="javascript:void(0);"
                onclick="myFunction()">
                 <i class="fa fa-bars"></i>
-
-
             </a>
-
         </div>
     </header>
     <div class="telo"> <!-- Telo reprezentuje hlavnu cast webovej stranky -->
         <div class="lavy">
-            <div class="lavy-horny"><p>Ľavý horný</p></div>
+            <div class="lavy-horny"><iframe width="400" height="400" src="https://www.youtube.com/embed/k458ZZMNbuk"
+                                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                </div>
+
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/k458ZZMNbuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                    <style>
+                  <style>
                         iframe.video {
                             width: 500px;
                             height: 700px;
+                            margin-top: -500px;
                         }
-
                     </style>
-
-
                 </iframe>
-
             </div>
-            <div class="lavy-dolny"><p>Ľavý dolný</p></div>
+            <div class="lavy-dolny"><img src="logopetr.jpg" height="65%" width="100%"
+            /> <img src="Image20230513111722.png" height="20%" width="100%"/></div>
         </div>
         <div class="pravy">
-            <div class="pravy-horny"><p>Pravý horný</p></div>
-            <div class="pravy-dolny"><p>Pravý dolný</p></div>
+            <div class="pravy-horny"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+
+            <div class="pravy-dolny"> <table class="styled-table">
+                <thead>
+                <style>
+                    .styled-table {
+                        border-collapse: collapse;
+                        font-family: sans-serif;
+                        font-size: 1em;
+                        margin: 7px 0;
+                        width: 745px;
+                        box-shadow: 2px 2px 4px rgba(145, 42, 42, 1);
+                        -webkit-box-shadow: 2px 2px 4px rgba(145, 42, 42, 1);
+                        -moz-box-shadow: 2px 2px 4px rgba(145, 42, 42, 1);
+                        border-radius: 5px;
+                        overflow: hidden;
+
+                    }
+
+                    .styled-table thead tr{
+                        text-align: left;
+                        color: white;
+                        background-color: #0478f2;
+
+                    }
+
+                    .styled-table th, .styled-table td{
+                        padding: 12px 15px;
+
+                    }
+
+                    .styled-table tbody tr{
+                        border-bottom: 1px solid;
+
+                    }
+                    .styled-table tbody tr:nth-of-type(even) {
+                        background-color: #f3f3f3;
+                    }
+
+                    .styled-table tbody tr:last-of-type {
+                        border-bottom: 2px solid #009879;
+                    }
+
+                    .styled-table tbody tr:hover {background-color: #ddd;}
+
+                </style>
+                <tr>
+                    <th>Typ hasicskeho pristroja</th>
+                    <th>Čo možno hasiť</th>
+                    <th>Čo sa nesmie hasiť</th>
+
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td>voda/vodný HP</td>
+                    <td>tuhé látky, ktoré nereagujú s vodou</td>
+                    <td>elektrické zariadenie pod napätím, benzín, olej</td>
+                </tr>
+                <tr class="active-row">
+                    <td>piesok</td>
+                    <td>menšie požiare kde nemožno použiť vodu</td>
+                    <td>jemná mechanika, elektronika</td>
+                </tr>
+                <tr class="active-row">
+                    <td>CO2/snehový HP</td>
+                    <td>tuhé, kvapalné, plynné látky, zariadenia pod napätím</td>
+                    <td>práškové látky</td>
+                </tr>
+                <tr class="active-row">
+                    <td>CO2+H2O/penový HP</td>
+                    <td>tuhé a kvapalné látky</td>
+                    <td>elektrické zariadenia pod prúdom</td>
+                </tr>
+
+
+                <!-- and so on... -->
+                </tbody>
+            </table></div>
+
+
+
         </div>
     </div>
     <div class="nad-patkou">
-        <div class="nad-patkou-lavy"><p>Nad pätkou ľavý</p></div>
-        <div class="nad-patkou-pravy"><p>Nad pätkou pravý</p></div>
+        <div class="nad-patkou-lavy">
+            <form action="#" method="get">
+
+                <label for="button">Button (tlačidlo)</label>
+                <input id="button" name="tlacidlo" type="button" value="Stlač ma!">
+
+                <label for="checkbox">Checkbox (začiarkávacie tlačidlo)</label>
+                <input id="checkbox" name="zaciarkavacie-tlacidlo" type="checkbox"><br>
+
+                <label for="color">Farba (color)</label>
+                <input id="color" name="farba" type="color"><br>
+
+
+                <label for="date">Dátum (date)</label>
+                <input id="date" name="datum" type="date"><br>
+
+                <label for="datetime-local">Dátum a čas (datetime-local)</label>
+                <input id="datetime-local" name="datum-cas" type="datetime-local"><br>
+
+                <label for="email">E-mail (email)</label>
+                <input id="email" name="emailova-adresa" type="email"><br>
+
+
+                Vyhľadávanie (search)
+                <input type="search"><br>
+
+                Tlačidlo na odoslanie údajov z formulára (submit)
+                <input type="submit"><br>
+
+                Telefónne číslo (tel)
+                <input type="tel"><br>
+
+                Webová adresa (url)
+                <input id="url" name="url" pattern="https://.*" placeholder="https://example.com" required size="30" type="url">
+
+                Týždeň (week)
+                <input type="week"><br>
+            </form>
+
+            <div class="nad-patkou-pravy"><img src="52958_p_img.webp" height="100%" width="100%"/></div>
     </div>
-    <footer class="patka"><p>Pätka</p></footer>
+
+    <footer class="patka"><p><b>Kontakt:</b></p>
+        <p>koricanska@hasiaciservis.sk</p>
+        <p>Starohorská 4, 974 11 Banská Bystrica</p>
+        <p><b>Zavolajte</b></p>
+        <p>+421 905 924 333</p>
+    </footer>
 </div>
 <!-- TODO Doplnte menu do Hlavicka, prip. farebne upravte -->
 <!--<script>
@@ -82,9 +202,9 @@
         }
     }
 </script>-->
-</body>
+
+ </body>
+
+
 </html>
-
-
-
 

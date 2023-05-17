@@ -1,57 +1,330 @@
 <!DOCTYPE html>
-<html lang="sk">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>3-stĺpcový web dizajn</title>
+  <title>KTO SME</title>
+  <meta property='og:site_name' content='' />
+  <meta property='og:title' content='My Site' />
+  <meta property='og:description' content='Agentúra zerovia bola založená v roku 2013 a ponúka komplexné služby v oblasti marketingovej komunikácie.' />
+  <meta property='og:image' content='http://www.zerovia.sk/uploads/6/9/0/6/6906865/4483316.png?120' />
+  <meta property='og:url' content='http://www.zerovia.sk/' />
 
-  <style>
-    .hlavny {
-      display: flex;
-      flex-direction: column;
-    }
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0;">
 
-    .hlavicka {
-      background-color: orange;
-    }
+  <script type="text/javascript" charset="utf-8">
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById("navmobile").innerHTML = document.getElementById("nav").innerHTML;
+    });
+  </script>
 
-    .patka {
-      background-color: pink;
-    }
 
-    .riadok {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .lavy {
-      width: 20%;
-      background-color: green;
-    }
-
-    .stredny {
-      width: 60%;
-      background-color: blue;
-    }
-
-    .pravy {
-      width: 20%;
-      background-color: red;
-    }
-
+  <link rel="stylesheet" href="//cdn2.editmysite.com/css/sites.css?buildTime=1426616931" type="text/css" /><link rel='stylesheet' type='text/css' href='//cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1426616931' />
+  <link rel='stylesheet' type='text/css' href='/files/main_style.css?1426630577' title='wsite-theme-css' />
+  <link href='//fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+  <link href='//fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+  <style type='text/css'>
+    .wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+    #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+    .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+    .wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+    #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+    .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+    #wsite-title {}
+    .wsite-not-footer h2.wsite-content-title a, .wsite-not-footer .paragraph a, .wsite-not-footer blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a, #wsite-com-product-tab a {color:#8d5024 !important;}
+    .wsite-menu-default a {}
+    .wsite-menu a {}
+    .wsite-image div, .wsite-caption {}
+    .galleryCaptionInnerText {}
+    .fancybox-title {}
+    .wslide-caption-text {}
+    .wsite-phone {}
+    .wsite-headline {font-family:"Verdana" !important;}
+    .wsite-headline-paragraph {}
+    .wsite-button-inner {}
+    .wsite-not-footer blockquote, #wsite-com-product-tab blockquote {}
+    .wsite-footer blockquote {}
+    .blog-header h2 a {}
+    #wsite-content h2.wsite-product-title {}
+    .wsite-product .wsite-product-price a {}
+    .wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover, #wsite-com-product-tab a:hover {color:#818181 !important;}
   </style>
-
+  <style>
+    .wsite-background {background-image: url('//cdn2.editmysite.com/images/editor/theme-background/stock/Coffee.jpg') !important;background-repeat: repeat !important;background-position: 0 0 !important;background-size: auto !important;background-color: transparent !important;background: inherit;}
+  </style>
+  <script><!--
+  var STATIC_BASE = '//cdn1.editmysite.com/';
+  var STYLE_PREFIX = 'wsite';
+  //-->
+  </script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  <script src='//cdn2.editmysite.com/js/site/main.js?buildTime=1426616931'></script>
+  <script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+  <script type='text/javascript'><!--
+  (function(jQuery){
+    function initFlyouts(){initPublishedFlyoutMenus([{"id":"567566995919860988","title":"KTO SME","url":"index.html","target":""},{"id":"510247807378167166","title":"SLU&#381;BY","url":"slu381by.html","target":""},{"id":"697808273840578517","title":"REFERENCIE","url":"referencie.html","target":""},{"id":"624073874400831864","title":"KONTAKT","url":"kontakt.html","target":""}],"567566995919860988","<li><a href=\"#\" data-membership-required=\"\" >{{title}}<\/a><\/li>",'active',false)}
+    if (jQuery) {
+      jQuery(document).ready(function() { jQuery(initFlyouts); });
+    }else{
+      if (Prototype.Browser.IE) window.onload = initFlyouts;
+      else document.observe('dom:loaded', initFlyouts);
+    }
+  })(window._W && _W.jQuery)
+  //-->
+  </script>
 </head>
-<body>
-
-<div class="hlavny">
-  <header class="hlavicka">Hlavička</header>
-  <div class="riadok">
-    <div class="lavy">Ľavý</div>
-    <div class="stredny">Stredný</div>
-    <div class="pravy">Pravý</div>
+<body class='tall-header-page wsite-page-index wsite-theme-light'>
+<!-- header-wrap -->
+<div id="header-wrap">
+  <div id="header" class="content-wrap">
+    <label id="nav-trigger" for="mobile-trigger"></label>
+    <div id="logo"><span class='wsite-logo'><span class='wsite-title-placeholder'>&nbsp;</span><span style="display:none">&nbsp;</span></span></div>
+    <div id="header-right">
+      <div id="nav" class="nav"><ul class='wsite-menu-default'><li id="active"><a href="/">KTO SME</a></li><li id='pg510247807378167166'><a href="/slu381by.html" data-membership-required="0" >SLU&#381;BY</a><div class='wsite-menu-wrap' style='display:none'><ul class='wsite-menu'><li id='wsite-nav-511255738198999683'><a href='/reklamnaacute-268innos356.html' ><span class='wsite-menu-title'>REKLAMN&Aacute; &#268;INNOS&#356;</span></a></li><li id='wsite-nav-515037459376009513'><a href='/public-relation.html' ><span class='wsite-menu-title'>PUBLIC RELATION</span></a></li><li id='wsite-nav-416654959273778381'><a href='/event-management.html' ><span class='wsite-menu-title'>EVENT MANAGEMENT</span></a></li><li id='wsite-nav-430690018941910035'><a href='/sales-a-trade-promotion.html' ><span class='wsite-menu-title'>SALES A TRADE PROMOTION</span></a></li></ul></div></li><li id='pg697808273840578517'><a href="/referencie.html" data-membership-required="0" >REFERENCIE</a></li><li id='pg624073874400831864'><a href="/kontakt.html" data-membership-required="0" >KONTAKT</a></li></ul></div>
+    </div>
   </div>
-  <footer class="patka">Pätka</footer>
 </div>
+<!-- end header-wrap -->
+
+<div id="wrapper">
+  <div id="wrapper-content">
+
+    <input type="checkbox" id="mobile-trigger" class="mobile-trigger">
+    <div id="navmobile" class="nav"></div>
+
+    <div id="main-content">
+
+      <!-- banner-wrap -->
+      <div id="banner-wrap" class="wsite-background wsite-custom-background">
+        <div id="banner">
+          <h2></h2>
+        </div>
+      </div>
+      <!-- end banner-wrap -->
+
+      <div id="main-wrap" class="content-wrap"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
+        <h2 class="wsite-content-title" style="text-align:center;"><font color="#8d5024"><span "font-family:&quot;lucida="" unicode&quot;;mso-bidi-font-family:&quot;lucida="" unicode&quot;;="" color:#002060"="">&bdquo;Kladieme d&ocirc;raz na to, aby ka&#382;d&yacute; krok, ktor&yacute; spolu urob&iacute;me,</span>&nbsp;<br /></font><span "font-family:&quot;lucida="" unicode&quot;;mso-bidi-font-family:&quot;lucida="" unicode&quot;;="" color:#002060"="" style=""><font color="#8d5024">d&aacute;val v&aacute;&scaron;mu biznisu zmysel a pridan<span id="selectionBoundary_1426608416436_368906824151054" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span><span id="selectionBoundary_1426608413008_42000350216403604" class="rangySelectionBoundary" style="line-height: 0; display: none;">&#65279;</span>&uacute; hodnotu&ldquo;.</font></span></h2>
+
+        <div class="wsite-spacer" style="height:75.77777767181396px;"></div>
+
+        <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+          <table class="wsite-multicol-table">
+            <tbody class="wsite-multicol-tbody">
+            <tr class="wsite-multicol-tr">
+              <td class="wsite-multicol-col" style="width:31.920455299417%; padding:0 15px;">
+
+
+
+                <div class="paragraph" style="text-align:left;"><span style=""><font color="#025faa">Agent&uacute;ra zerovia bola zalo&#382;en&aacute; v roku 2013 a&nbsp;pon&uacute;ka komplexn&eacute; slu&#382;by v&nbsp;oblasti marketingovej komunik&aacute;cie.</font></span></div>
+
+
+
+              </td>				<td class="wsite-multicol-col" style="width:34.671037743378%; padding:0 15px;">
+
+
+
+              <div class="paragraph" style="text-align:left;"><font color="#025faa"><span style="line-height: 1.5; background-color: initial;">Poslan&iacute;m na&scaron;ej agent&uacute;ry je dlhodobo poskytova&#357; kvalitn&eacute; slu&#382;by      a&nbsp;produkty v&nbsp;oblasti reklamy a&nbsp;marketingu.</span></font><br /></div>
+
+
+
+            </td>				<td class="wsite-multicol-col" style="width:33.408506957205%; padding:0 15px;">
+
+
+
+              <div class="paragraph" style="text-align:left;"><span style=""><font color="#025faa">Viac ako 20 ro&#269;n&eacute; sk&uacute;senosti n&aacute;&scaron;ho t&iacute;mu v&nbsp;reklamnej oblasti n&aacute;m umo&#382;&#328;uj&uacute; pon&uacute;ka&#357; klientom efekt&iacute;vne rie&scaron;enia najvy&scaron;&scaron;ej kvality.</font></span><br /><br /></div>
+
+
+
+            </td>			</tr>
+            </tbody>
+          </table>
+        </div></div></div>
+
+        <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+          <hr class="styled-hr" style="width:100%;"></hr>
+          <div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+        <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+          <table class="wsite-multicol-table">
+            <tbody class="wsite-multicol-tbody">
+            <tr class="wsite-multicol-tr">
+              <td class="wsite-multicol-col" style="width:49.708737864078%; padding:0 15px;">
+
+
+
+                <div class="paragraph" style="text-align:left;"><font color="#025faa">Sme t&iacute;m, ktor&eacute;mu nech&yacute;ba komplexn&yacute; poh&#318;ad na svet online a&nbsp;offline marketingu a&nbsp;jeho trendy.</font></div>
+
+
+
+              </td>				<td class="wsite-multicol-col" style="width:50.291262135922%; padding:0 15px;">
+
+
+
+              <div class="paragraph" style="text-align:left;"><font color="#025faa">Na&scaron;im cie&#318;om je vytvori&#357; komunik&aacute;ciu, ktor&aacute; oslov&iacute; &#269;o naj&scaron;ir&scaron;iu cie&#318;ov&uacute; skupinu a&nbsp;posunie zna&#269;ku bli&#382;&scaron;ie k&nbsp;jej amb&iacute;ci&aacute;m</font></div>
+
+
+
+            </td>			</tr>
+            </tbody>
+          </table>
+        </div></div></div></div>
+      </div>
+      <!-- end main-wrap -->
+
+      <!-- footer-wrap -->
+      <div id="footer-wrap" class="content-wrap"><div class='wsite-elements wsite-footer'>
+        <span class='imgPusher' style='float:right;height:0px'></span><span style='display: table;z-index:10;width:130px;position:relative;float:right;max-width:100%;;clear:right;margin-top:0px;*margin-top:0px'><a><img src="/uploads/6/9/0/6/6906865/4483316.png?120" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; none; max-width:100%" alt="Picture" class="galleryImageBorder wsite-image" /></a><span style="display: table-caption; caption-side: bottom; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;" class="wsite-caption"></span></span>
+        <div class="paragraph" style="text-align:left;display:block;"><span style="font-style: normal;"><font color="#8d5024"><strong>&copy;&nbsp;</strong>2014 zerovia. All rights reserved. Bratislava.&nbsp;</font></span></div>
+        <hr style="width:100%;clear:both;visibility:hidden;"></hr></div></div>
+      <!-- end footer-wrap -->
+
+    </div>
+
+  </div>
+</div>
+<!-- end wrapper -->
+
+<!-- JavaScript -->
+<script type="text/javascript" src="/files/theme/plugins.js" ></script>
+<script type="text/javascript" src="/files/theme/custom.js"></script>
+<script type="text/javascript" src="/files/theme/mobile.js"></script>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7870337-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    // NOTE: keep the [1] if you replace this code. Otherwise cookie banner scripts won't be first on the page
+    var s = document.getElementsByTagName('script')[1]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  _W.Analytics = _W.Analytics || {'trackers': {}};
+  _W.Analytics.trackers.wGA = '_gaq';
+</script>
+
+<script type="text/javascript" async=1>
+  // NOTE: keep the getElementsByTagName(o)**[1]** if you replace this code. Otherwise cookie banner scripts won't be first on the page
+  ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+    p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+    };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[1];n.async=1;
+    n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday'));
+
+  var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
+  var snPlObR = function(arr) {
+    var s = '';
+    for (var i = 0 ; i < arr.length ; i++){
+      s = s + String.fromCharCode(arr[i]);
+    }
+    return s;
+  };
+  var s = snPlObR(r);
+
+  var regEx = new RegExp(s);
+
+  _W.Analytics = _W.Analytics || {'trackers': {}};
+  _W.Analytics.trackers.wSP = 'snowday';
+  _W.Analytics.user_id = '6906865';
+  _W.Analytics.site_id = '328917261556894128';
+
+  var drSegmentsTag = document.getElementById('drSegments');
+  if (drSegmentsTag) {
+    _W.Analytics.spContexts = _W.Analytics.spContexts || [];
+
+    var segmentData = JSON.parse(drSegmentsTag.innerText);
+    segmentData.forEach(function(test) {
+      _W.Analytics.spContexts.push({
+        schema: "iglu:com.weebly/context_ab_segment/jsonschema/1-0-0",
+        data: {
+          test_id: test.name,
+          segment: test.variant,
+        }
+      });
+    });
+  }
+
+
+  (function(app_id, ec_hostname, discover_root_domain) {
+    var track = window[_W.Analytics.trackers.wSP];
+    if (!track) return;
+    track('newTracker', app_id, ec_hostname, {
+      appId: app_id,
+      post: true,
+      platform: 'web',
+      discoverRootDomain: discover_root_domain,
+      cookieName: '_snow_',
+      contexts: {
+        webPage: true,
+        performanceTiming: true,
+        gaCookies: true
+      },
+      crossDomainLinker: function (linkElement) {
+        return regEx.test(linkElement.href);
+      },
+      respectDoNotTrack: true
+    });
+    track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id, _W.Analytics.spContexts);
+    track('crossDomainLinker', function (linkElement) {
+      return regEx.test(linkElement.href);
+    });
+  })(
+          '_wn',
+          'ec.editmysite.com',
+          true
+  );
+</script>
+
+
+
+
+
+<script>
+  (function(jQuery) {
+    try {
+      if (jQuery) {
+        jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
+        var $commentFrame = jQuery('#commentArea iframe');
+        if ($commentFrame.length > 0) {
+          var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
+          $commentFrame.css('min-height', frameHeight + 'px');
+        }
+        if (jQuery('.product-button').length > 0){
+          jQuery(document).ready(function(){
+            jQuery('.product-button').parent().each(function(index, product){
+              if(jQuery(product).attr('target') == 'paypal'){
+                if (!jQuery(product).find('> [name="bn"]').length){
+                  jQuery('<input>').attr({
+                    type: 'hidden',
+                    name: 'bn',
+                    value: 'DragAndDropBuil_SP_EC'
+                  }).appendTo(product);
+                }
+              }
+            });
+          });
+        }
+      }
+      else {
+        // Prototype
+        $$('div.blog-social div.fb-like').each(function(div) {
+          div.className = 'blog-social-item blog-fb-like';
+        });
+        $$('#commentArea iframe').each(function(iframe) {
+          iframe.style.minHeight = '410px';
+        });
+      }
+    }
+    catch(ex) {}
+  })(window._W && _W.jQuery);
+</script>
+
+<script>
+  window._W.isEUUser = true;
+  window._W.showCookieToAll = "";
+</script>
 
 </body>
 </html>
