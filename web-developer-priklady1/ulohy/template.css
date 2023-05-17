@@ -67,6 +67,7 @@ div p {
     background-color: rgba(86, 91, 86, 0.15);
     height: 600px;
     margin-top: 10px;
+    transition: margin-right 2s .5s;
 }
 
 .pravy-horny {
