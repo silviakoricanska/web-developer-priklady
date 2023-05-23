@@ -51,7 +51,7 @@
         var popup = document.getElementById('popup');
         var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (distanceFromTop > 500) { // Ak je vzdialenosť od vrchu stránky väčšia ako 500
+        if (distanceFromTop > 500 && !sessionStorage.getItem('popupShown')) { // Ak je vzdialenosť od vrchu stránky väčšia ako 500
             popup.style.opacity = '1'; // Nastavíme opacity na 1 (postupné zviditeľnenie)
             popup.style.visibility = 'visible'; // Nastavíme visibility na "visible"
         } else {
@@ -65,6 +65,7 @@
         var popup = document.getElementById('popup');
         popup.style.opacity = '0'; // Nastavenie opacity na 0 (skrytie obrázka)
         popup.style.visibility = 'hidden'; // Nastavenie visibility na "hidden"
+        sessionStorage.setItem('popupShown', 'true'); // Uloženie informácie o zobrazení popupu
     });
 </script>
 </body>
